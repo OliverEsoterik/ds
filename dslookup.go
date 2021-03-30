@@ -43,7 +43,7 @@ func List(w http.ResponseWriter, r *http.Request) {
     address := initial.Identifier
 
 	const collection = "iptable-store"
-	const projectID = "mms-cif-module-setup-t"
+	const projectID = "projectid"
 
 	ctx := context.Background()
 	client, err := datastore.NewClient(ctx, projectID)
